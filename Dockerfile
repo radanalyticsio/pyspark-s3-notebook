@@ -9,4 +9,3 @@ USER root
 RUN chmod g+rw /notebooks/s3-source-example.ipynb
 
 USER $NB_USER
-CMD ["/start.sh"]
